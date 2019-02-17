@@ -2,7 +2,7 @@
 ```
 Le Duc Khai
 Ho Chi Minh City, Vietnam   
-Bachelor in Biomedical Engineering at FH Aachen - University of Applied Sciences, Germany.
+Bachelor in Biomedical Engineering at FH Aachen - University of Applied Sciences, Germany
 ```
 Last updated on 12.02.2019.
 
