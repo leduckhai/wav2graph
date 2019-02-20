@@ -25,7 +25,7 @@
 %-------------------------------------------------------------------------%
 %-------------------------------------------------------------------------%
 %-------------------------------------------------------------------------%
-function result_image = WBC_nuclei_segment(image)
+function result_image = segment_WBC_nuclei(image)
 %% Read the input image
 original_image = imread(image);
 if ndims(original_image) == 3
