@@ -1,4 +1,4 @@
-# EntityKG (Entity Knowledge Graph)
+# **wav2graph**: A Framework for Supervised Learning Knowledge Graph from Speech
 
 ![EntityKG](EntityKG.png)
 
