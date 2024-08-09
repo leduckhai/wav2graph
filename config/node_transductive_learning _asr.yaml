@@ -1,0 +1,13 @@
+# The following parameters are used to load the dataset
+train_data: ./data/kg_full_03-06-2024.json
+test_data: ./data/kg_test_withASR_WER28_8.json # or ./data/kg_test_withASR_WER29_0.json
+
+# Training parameters
+train:
+  project_name: Entity KG
+  model_names: [SAGE, GCN, GAT, SuperGAT]
+  learning_rate: 0.005
+  num_epochs: 250
+  weight_decay: 0.05
+
+hf_token: ...

@@ -1,0 +1,7 @@
+torch
+torch_geometric
+wandb
+pyvi
+transformers
+pydantic
+scikit-learn

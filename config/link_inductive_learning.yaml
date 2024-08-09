@@ -1,0 +1,20 @@
+# The following parameters are used to load the dataset
+data: ./data/kg_full_03-06-2024.json
+
+# The following parameters are used to split the dataset into train, validation, and test sets
+splitted_edge_kwargs:
+  num_val: 0.2
+  num_test: 0.2
+  is_undirected: True
+  split_labels: True
+
+# Training parameters
+train:
+  project_name: Entity KG
+  model_names: [SAGE, GCN, GAT, SuperGAT]
+  out_channels: 32
+  learning_rate: 0.005
+  num_epochs: 250
+  weight_decay: 0.05
+
+hf_token: ...
