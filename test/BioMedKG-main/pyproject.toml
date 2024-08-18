@@ -1,0 +1,16 @@
+[project]
+name = "biomedkg"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "pydantic_settings==2.2.1","tqdm==4.65.0", "PyTDC",
+    "torch==2.2.0", "torch_scatter==2.1.2", "torch_sparse==0.6.18", "torch_geometric==2.5.3", 
+    "einops==0.8.0", "transformers==4.39.0","lightning==2.2.3", 
+    "PyGCL==0.1.2", "comet-ml==3.41.0",
+]
+
+[tool.setuptools.packages.find]
+exclude = ["assets*", "benchmark*", "playground*", "scripts*", "tests*", "data*"]
+
+[tool.wheel]
+exclude = ["assets*", "benchmark*", "playground*", "scripts*", "tests*", "data*"]

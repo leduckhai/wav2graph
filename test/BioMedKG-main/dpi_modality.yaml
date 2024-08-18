@@ -1,0 +1,24 @@
+gene/protein:
+  file_name: data/modalities/dpi_gene_feature.csv
+  idetifier_column: name
+  modality_columns:
+    - protein_seq
+    - description
+  model_name_for_each_modality:
+    - unikei/bert-base-proteins
+    - dmis-lab/biobert-v1.1
+  save_files:
+    - data/embed/gene_seq_protein_bert_dpi.pickle
+    - data/embed/gene_desc_biobert_dpi.pickle
+drug:
+  file_name: data/modalities/dpi_drug_feature.csv
+  idetifier_column: name
+  modality_columns:
+    - smiles
+    - description
+  model_name_for_each_modality:
+    - ibm/MoLFormer-XL-both-10pct
+    - dmis-lab/biobert-v1.1
+  save_files:
+    - data/embed/drug_smiles_molformer_dpi.pickle
+    - data/embed/drug_seq_biobert_dpi.pickle

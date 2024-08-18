@@ -1,0 +1,49 @@
+gene/protein:
+  amino_acid:
+    file_name: data/modalities/protein_aminoacid_sequence.csv
+    idetifier_column: protein_name
+    modality_columns:
+      - protein_seq
+      - ncbi_summary
+    model_name_for_each_modality:
+      - unikei/bert-base-proteins
+      - dmis-lab/biobert-v1.1
+    save_files:
+      - data/embed/protein_aminoacid_seq_proteinbert.pickle
+      - data/embed/protein_aminoacid_desc_biobert.pickle
+  dna:
+    file_name: data/modalities/protein_dna_sequence.csv
+    idetifier_column: protein_name
+    modality_columns:
+      - protein_seq
+      - ncbi_summary
+    model_name_for_each_modality:
+      - zhihan1996/DNABERT-2-117M
+      - dmis-lab/biobert-v1.1
+    save_files:
+      - data/embed/protein_dna_seq_dnabert.pickle
+      - data/embed/protein_dna_desc_biobert.pickle
+disease:
+  file_name: data/modalities/disease_feature_base.csv
+  idetifier_column: mondo_name
+  modality_columns:
+    - mondo_definition
+    - umls_description
+  model_name_for_each_modality:
+    - dmis-lab/biobert-v1.1
+    - dmis-lab/biobert-v1.1
+  save_files:
+    - data/embed/disease_def_biobert.pickle
+    - data/embed/disease_seq_biobert.pickle
+drug:
+  file_name: data/modalities/drug_feature_base.csv
+  idetifier_column: generic_name
+  modality_columns:
+    - smiles
+    - description
+  model_name_for_each_modality:
+    - ibm/MoLFormer-XL-both-10pct
+    - dmis-lab/biobert-v1.1
+  save_files:
+    - data/embed/drug_smiles_molformer.pickle
+    - data/embed/drug_seq_biobert.pickle
