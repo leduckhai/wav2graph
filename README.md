@@ -1,17 +1,23 @@
 # **wav2graph**: A Framework for Supervised Learning Knowledge Graph from Speech
 
-![EntityKG](EntityKG.png)
+> Please press ⭐ button and/or cite papers if you feel helpful.
+
+<p align="center">
+<img src="https://img.shields.io/badge/Last%20updated%20on-18.08.2024-brightgreen?style=for-the-badge">
+</p>
+
+![wav2graph_pipeline](figures/wav2graph_pipeline.png)
 
 This repository contains the codebase for the **wav2graph** paper:
 
 **wav2graph**: A Framework for Supervised Learning Knowledge Graph from Speech
 
-https://arxiv.org/pdf/2408.04174.pdf
+[https://www.arxiv.org/abs/2408.04174](https://www.arxiv.org/abs/2408.04174)
 
 
 ## Project Overview
 
-The **wav2graph** paper presents a novel approach to constructing entity knowledge graphs from speech data. This repository provides the necessary scripts, configurations, and setup instructions to reproduce the experiments discussed in the paper.
+In the **wav2graph** paper, we introduce the first framework for supervised learning knowledge graph from speech data. This repository provides the necessary scripts, configurations, and setup instructions to reproduce the experiments discussed in the paper.
 
 ## Setup
 
@@ -49,4 +55,20 @@ sh run.sh
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2408.04174}, 
 }
+```
+
+## Contact
+Core developers:
+
+**Khai Le-Duc**
+```
+University of Toronto, Canada
+Email: duckhai.le@mail.utoronto.ca
+GitHub: https://github.com/leduckhai
+```
+
+**Quy-Anh Dang**
+```
+VNU University of Science, Vietnam
+GitHub: https://github.com/QuyAnh2005
 ```
