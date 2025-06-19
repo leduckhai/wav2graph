@@ -3,6 +3,10 @@
 > Please press ⭐ button and/or cite papers if you feel helpful.
 
 <p align="center">
+  <img src="https://trendshift.io/api/badge/repositories/4535" alt="GitHub Trend" />
+</p>
+
+<p align="center">
 <img src="https://img.shields.io/badge/Last%20updated%20on-18.08.2024-brightgreen?style=for-the-badge">
 </p>
 
